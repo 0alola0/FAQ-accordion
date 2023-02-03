@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>FAQ Accordion Card | 0alola0</title>
+
+</head>
+<body>
+  <div class="main-container">
+
+    <div class="image-container">
+      <img class="box" src="./images/illustration-box-desktop.svg" alt="">
+      <img class="illustration" src="./images/illustration-woman-online-desktop.svg" alt="">
+    </div>
+
+    <div class="faq-container">
+      <h1 class="title">FAQ</h1>
+
+      <div class="text-container">
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <template id="question-template">
+    <div class="question-container">
+      <div class="question">
+        <h4 class="question-text"></h4>
+        <img class="arrow" src="./images/icon-arrow-down.svg" alt="">
+      </div>
+      <div class="answer">
+        <p class="answer-text"></p>
+      </div>
+    </div>
+  </template>
+  
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
